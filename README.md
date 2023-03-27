@@ -3,7 +3,7 @@
 
 Hello there! I repeat the exercise after a short break. I will be grateful for any feedback and I am asking for your understanding. 
 
-Link to my website: [Homepage](https://machloy.github.io/Homepage/)
+Link to my website: [Homepage](https://machloy.github.io/Personal-Homepage/)
 
 ## Description
 
