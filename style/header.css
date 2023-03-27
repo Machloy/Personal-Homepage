@@ -1,0 +1,38 @@
+.header {
+    margin-top: 50px;
+    text-align: center;
+    font-family: 'Roboto', sans-serif;
+}
+
+.header__img {
+    width: 50%;
+    border-radius: 10px;
+}
+
+.header__paragraph {
+    margin-top: 30px;
+    padding: 0 20px;
+}
+
+.header__blackSun{
+    width: 40px;
+    cursor: pointer;
+}
+
+.header__blackSun {
+    display: inline-block;
+    width: 40px;
+    height: 40px;
+    background-image: url("https://img.icons8.com/ios-glyphs/30/null/smiling-sun.png");
+    background-size: contain;
+    cursor: pointer;
+    transition: .6s;
+}
+
+.header__clickText {
+    font-size: 12px;
+}
+
+.whiteSun {
+    background-image: url("https://img.icons8.com/windows/32/null/smiling-sun.png");
+}

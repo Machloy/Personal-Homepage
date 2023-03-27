@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/normalize/8.0.1/normalize.css"
+      integrity="sha512-oHDEc8Xed4hiW6CxD7qjbnI+B07vDdX7hEPTvn9pSZO1bcRqHp8mj9pyr+8RVC2GmtEfI2Bi9Ke9Ass0as+zpg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <meta property="og:image" content="img/share2.png" />
+    <link rel="icon" href="./img/darkSun.png" />
+    <link rel="stylesheet" href="./style/main.css" />
+    <link rel="stylesheet" href="./style/nav.css" />
+    <link rel="stylesheet" href="./style/header.css" />
+    <link rel="stylesheet" href="./style/recipe.css" />
+    <link rel="stylesheet" href="./style/footer.css" />
+
+    <script defer src="./main.js"></script>
+    <title>About Me</title>
+  </head>
+  <body class="js-body">
+    <nav class="nav">
+      <a class="nav__link" href="#">Strona główna</a>
+      <a class="nav__link" href="#aboutMe">O mnie</a>
+      <a class="nav__link" href="#recipe">Przepis</a>
+    </nav>
+    <header class="header">
+      <span class="header__blackSun js-blackSun"></span>
+      <p class="header__clickText">Kliknij</p>
+      <h2>O mnie</h2>
+      <img
+        class="header__img"
+        src="./img/ja.jpg"
+        alt="Moje zdjęcie w niebieskiej koszuli w kratkę na tle drzewa i zielonych krzaków."
+      />
+      <p class="header__paragraph">
+        Cześć! Mam na imię Maciej i pochodzę z Suwałk. Od młodych lat interesuje
+        się technologią i elektroniką. Bardzo lubię gotować i podróżować. Jeśli
+        ktoś chciałby porozmawiać o programowaniu, technologii czy elektronice,
+        albo po prostu o niczym, to śmiało pisz.
+      </p>
+    </header>
+    <article class="recipe" id="recipe">
+      <h2>Przepis na placek po węgiersku</h2>
+
+      <table class="recipe__table">
+        <caption class="recipe__tableCaption">
+          Lista składników
+        </caption>
+        <tr>
+          <th class="recipe__tableCell" scope="col">Składnik</th>
+          <th class="recipe__tableCell" scope="col">Ilość</th>
+        </tr>
+        <tr>
+          <td class="recipe__tableCell">Ziemniaki</td>
+          <td class="recipe__tableCell">1 kg</td>
+        </tr>
+
+        <tr>
+          <td class="recipe__tableCell">Mąka pszenna</td>
+          <td class="recipe__tableCell">1 łyżka</td>
+        </tr>
+        <tr>
+          <td class="recipe__tableCell">Cebula</td>
+          <td class="recipe__tableCell">1 szt</td>
+        </tr>
+        <tr>
+          <td class="recipe__tableCell">Jajko</td>
+          <td class="recipe__tableCell">1 szt</td>
+        </tr>
+        <tr>
+          <td class="recipe__tableCell" colspan="2">Sól</td>
+        </tr>
+        <tr>
+          <td class="recipe__tableCell">Olej roślinny do smażenia</td>
+          <td class="recipe__tableCell">5 łyżek</td>
+        </tr>
+        <tr>
+          <td class="recipe__tableCell" colspan="2">Do podania: śmietana</td>
+        </tr>
+      </table>
+      <p class="recipe__preparationHeading">Przygotowanie</p>
+      <ul class="recipe__list">
+        <li class="recipe__listItem">
+          Przygotować i podgrzać porcję gulaszu węgierskiego.
+        </li>
+        <li class="recipe__listItem">
+          Ziemniaki obrać i zetrzeć na tarce o małych oczkach. Zostawić je na
+          ok. 5 minut bez mieszania po czym w dłoniach dokładnie odcisnąć z
+          soku. Do odciśniętych ziemniaków dodać mąkę, drobno startą cebulę,
+          jajko oraz dwie szczypty soli, wymieszać.
+        </li>
+        <li class="recipe__listItem">
+          Rozgrzać patelnię (śr. 20-22 cm), wlać 3 łyżki oleju. Wyłożyć całą
+          masę ziemniaczaną na rozgrzany olej i rozprowadzić ją na równy placek.
+          Smażyć na średnim ogniu przez ok. 4 minuty na złoty kolor, przewrócić
+          na drugą stronę, dodać pozostałe 2 łyżki oleju i powtórzyć smażenie
+          (ok. 3 minuty)
+        </li>
+        <li class="recipe__listItem">
+          Przełożyć na talerz, nałożyć gorący gulasz i złożyć na pół. Po
+          wierzchu polać gęstą śmietaną i posypać natką.
+        </li>
+      </ul>
+    </article>
+    <footer class="footer">
+      <p>Maciej Godlewski &copy;</p>
+    </footer>
+  </body>
+</html>
